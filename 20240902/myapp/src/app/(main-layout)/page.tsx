@@ -1,7 +1,9 @@
-import Image from "next/image";
+import Count from "../components/Count";
 
 export default function Home() {
   return (
-    <div>이거 보임</div>
+    <div>
+      <Count />
+    </div>
   );
 }

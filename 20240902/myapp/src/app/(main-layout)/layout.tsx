@@ -1,7 +1,10 @@
-const layout = () => {
+import { ReactNode } from "react"
+
+const layout = ({ children }: { children: ReactNode }) => {
     return (
         <div>
-
+            여기는 공통 메인 레이아웃
+            {children}
         </div>
     )
 }
