@@ -1,0 +1,35 @@
+.userInput {
+    @apply w-full px-5 text-gray-600 ml-2
+}
+
+.loginBtn {
+    @apply bg-gray-600 border-spacing-5 text-white items-center justify-center w-full px-2;
+}
+
+.threeBtn {
+    @apply text-gray-500
+}
+
+.threeBtnWrap {
+    @apply w-72 justify-around
+}
+
+.virtualElement {
+    @apply absolute inset-0 before:content-[''] before:absolute before:top-0 before:left-1/2 before:w-1 before:h-full before:bg-black before:rotate-45 after:content-[''] after:absolute after:top-0 after:left-1/2 after:w-1 after:h-full after:bg-black after:-rotate-45
+}
+
+.header {
+    @apply flex items-center justify-between w-full px-4
+}
+
+.headerX {
+    @apply absolute w-3 h-3 inline-block
+}
+
+.headerChildren {
+    @apply flex-1 text-center
+}
+
+.footer {
+    @apply text-gray-500
+}
